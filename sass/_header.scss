@@ -1,0 +1,59 @@
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.logovet {
+    height: 100%;
+    width: auto;
+    margin: auto;
+}
+
+.boton-menu {
+    background-color: $blue;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 1em;
+    padding: 1em 1em;
+}
+
+.boton-menu img {
+    height: 100%;
+}
+
+.nav {
+    display: none;
+}
+
+.desplegable-header {
+    background-color: $blue;
+    color: #fff;
+}
+
+.desplegable-body {
+    background-color: #fff;
+}
+
+.offcanvas-end {
+    width: 20em;
+}
+
+.ul-nav-responsive li {
+    padding: .4em;
+    border-bottom: 2px solid #E5ECF3;
+}
+
+.ul-nav-responsive li a{
+    color: $blue;
+    font-size: 1.2em;
+}
+
+.ul-nav-responsive li img {
+    height: 1.2em;
+    margin-right: .4em;
+}

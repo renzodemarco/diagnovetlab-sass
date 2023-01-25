@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import "variables";
+@import "header";
+@import "mediaqueries";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+    grid-template-rows: 4em;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+main {
+    grid-area: main;
+    background-color: #fff;
+}
+
+footer {
+    grid-area: footer;
+    width: 100%;
+    background-color: $blue;
+    color: #fff;
+    font-weight: normal;
+    font-size: .8em;
+}
+
+footer img {
+    height: 1em;
+    margin-right: .3em 
+}
+
+.redes ul {
+    padding: 0.6em;
+}
+
+.direccion ul {
+    padding: .6em;
+}
+
+.direccion ul li {
+    display: flex;
+}
+
+.direccion ul li p {
+    margin: 0;
+    order: 1;
+}
+
+.direccion ul li img {
+    order: 0;
+    justify-self: center;
+    align-self: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.presentacion {
+    background-color: $blue;
+}
+
+.presentacion img {
+    width: 100%;
+    object-fit: cover;
+    order: 2;
+}
+
+h1 {
+    background-color: $blue;
+    font-size: 1.6em;
+    padding: 1.2em .8em;
+    margin: 0;
+    text-align: center;
+    order: 1;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding: 0 0.6em 1.6em;
+    text-align: center;
+    order: 3;
+    color: #fff;
+}
+
+form {
+    margin-bottom: 2em;
+}
+
+.mb-3 {
+    padding: 1em 1.4em;
+    background-color: #fff;
+    color: $blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-label {
+    text-align: center;
+    font-weight: normal;
+    padding: 1em 1em 0;
+}
+
+.form-control {
+    margin: .8em 0;
+    max-width: 80vw;
+}
+
+.boton-submit {
+    background-color: $blue;
+    font-size: 1em;
+    border: solid 2px $celeste;
+    padding: .8em 1.6em;
+}
+
+.boton-submit:active {
+    background-color: $celeste;
+    color: $blue;
+    border: solid 2px $blue;
+}
+
+.forma-trabajo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-evenly;
+    margin: 1em 0;
+}
+
+.forma-trabajo div {
+    max-width: 300px;
+    padding: .3em;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.forma-trabajo img {
+    @include size(8em, 10em);
+    object-fit: contain;
+    margin: auto;
+    padding: .6em;
+}
+.sumate {
+    background-color: $celeste;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sumate h2 {
+    display: inline;
+    padding: 0 1em;
+    color: $blue;
+    font-weight: bold;
+}
+
+.perfiles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: normal;
+}
+
+.perfiles div {
+    margin-bottom: 1.8em;
+    text-align: center;
+}
+
+.perfiles div:last-child {
+    margin-bottom: 0;
+}
+
+.perfiles div h2 {
+    background-color: $celeste;
+    color: $blue;
+    font-weight: bold;
+    padding: 1.6em;
+    margin: 0;
+    order: 1;
+}
+
+.perfiles div p {
+    padding: 1em 1em 2em;
+    margin: 0;
+    order: 2;
+}
+
+.perfiles div img {
+    width: 100%;
+    order: 3;
+}
+
+.analisis div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1em;
+    margin: .6em 0 1em;
+    background-color: $celeste;
+}
+
+.analisis div:first-child {
+    margin-top: 0;
+}
+
+.analisis div:last-child {
+    margin-bottom: 0;
+}
+
+.analisis div h2 {
+    font-weight: bold;
+    color: $blue;
+    order: 1;
+    padding: .4em;
+    margin: 0;
+}
+
+.analisis div ul {
+    font-weight: normal;
+    order: 2;
+    padding: .8em 1.6em;
+}
+
+.analisis div ul li {
+    list-style-type: disc;
+}
+
+.equipo-trabajo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.equipo-trabajo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 1em;
+    background-color: #fff;
+}
+
+.equipo-trabajo div:nth-child(odd) {
+    background-color: $celeste;
+}
+
+.equipo-trabajo div img {
+    width: 68%;
+    margin: 1em;
+    order: 1;
+    border-radius: 50%;
+    outline: 2px solid $celeste;
+    box-shadow: 0 0 6px $blue;
+}
+
+.equipo-trabajo div h2 {
+    color: $blue;
+    font-size: 1.4em;
+    font-weight: bold;
+    order: 2;
+    padding: .2em;
+}
+
+.equipo-trabajo div p {
+    font-size: 1em;
+    padding: .2em;
+    font-weight: normal;
+    text-align: center;
+    order: 3;
+}
+
+

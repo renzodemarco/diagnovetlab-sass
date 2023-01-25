@@ -1,0 +1,18 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3.3920000000000003" stroke="#1c2d3d" fill="none">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<circle cx="44.22" cy="24.1" r="5.71"/>
+<path d="M45.19,29.73c1.45,1.35,2.06,4.67,2.06,6.42a12,12,0,0,1-21.51,7.42"/>
+<path d="M49.78,25.41a17.32,17.32,0,0,1,3.53,10.74A18.1,18.1,0,0,1,19.8,45.64a14.29,14.29,0,0,1-1.05-2.12"/>
+<line x1="10.69" y1="43.52" x2="33.56" y2="43.52" stroke-linecap="round"/>
+<line x1="23.85" y1="59.09" x2="46.72" y2="59.09" stroke-linecap="round"/>
+<polyline points="40.01 27.96 33.8 33.94 24.7 24.79 42.9 6.07 52.81 15.96 48.62 20.45"/>
+<path d="M44.22,7.38l2.56-2.61a1,1,0,0,1,1.42,0L54,10.51a1,1,0,0,1,0,1.4l-2.54,2.65"/>
+<polyline points="32.24 32.35 28.05 34.81 24.27 30.99 26.67 26.82"/>
+<path d="M29.82,59.09c0-1.48.32-4.21,1.06-5.37"/>
+<path d="M40.54,59.58a14.86,14.86,0,0,0-1.28-5.78"/>
+</g>
+</svg>

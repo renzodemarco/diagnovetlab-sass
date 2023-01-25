@@ -1,0 +1,243 @@
+@media screen and (min-width: 520px) {
+    body {
+        font-size: 18px;
+    } 
+
+    .analisis {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .analisis div {
+        flex-grow: 1;
+        max-width: 20em;
+        font-size: 16px;
+        margin: 1em .6em;
+        transition: all .6s;
+    }
+
+    .analisis div:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 4px $blue ;
+    }
+        
+    .analisis div:first-child {
+        margin-top: 1em;
+    }
+
+    .analisis div:last-child {
+        margin-bottom: 1em;
+    }            
+}
+
+@media screen and (min-width: 620px) {
+    body {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: .7em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .redes ul li {
+        margin: .2em;
+    }
+
+    .direccion ul li {
+        justify-content: flex-end;
+        margin: .2em;
+    }    
+
+    .equipo-trabajo div {
+    max-width: 50%;
+    font-size: 17px;
+    transition: all .6s;
+    }
+
+    .equipo-trabajo div:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 4px $blue;
+    }
+}   
+
+@media screen and (min-width: 768px) {
+    .boton-menu {
+        display: none;
+    }
+
+    .offcanvas {
+        display: none;
+    }
+
+    .logovet {
+        height: 90%;
+        margin: auto;
+    }
+
+    .nav {
+        display: inline-block;
+        width: 74%;
+    }
+
+    .nav a{
+        color: $blue;
+        font-size: .8em;
+    }
+
+    .ul-nav {
+        display: flex;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ul-nav li img {
+        height: 1.2em;
+        margin-right: .3em;
+    }
+
+    .presentacion img {
+        height: 24em;
+    }
+
+    .form-control {
+        width: 36em;
+    }
+
+    .forma-trabajo div p {
+        font-size: .9em;
+    }
+
+    .perfiles div {
+        @include size(14em, 100%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .perfiles div:nth-child(odd) {
+        flex-direction: row;
+        text-align: left;
+        background-color: $celeste;
+    }
+
+    .perfiles div:nth-child(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+        background-color: #fff;
+    }
+
+    .perfiles div h2 {
+        background-color: inherit;
+        min-width: 26%;
+        font-size: 1.4em;
+    }
+
+    .perfiles div img {
+        @include size(100%, 30%);
+        object-fit: cover;
+    }
+}   
+
+@media screen and (min-width: 1032px) {
+    body {
+        font-size: 22px;
+    }
+
+    .logovet {
+        height: 100%;
+    }
+
+    .nav a{
+        font-size: .9em;
+    }
+
+    .presentacion {
+        display: grid;
+        grid-template-columns: 58% 42%;
+        grid-template-rows: 10em 6em;
+    }
+    .presentacion h1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin: .8em;
+        font-size: 1.8em;
+        align-self: center;
+        z-index: 0;
+    }
+    .presentacion h2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .presentacion img {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        height: 100%;
+    }
+    .form-label {
+        font-size: 1em;
+    }
+
+    .form-control {
+        font-size: .8em;
+    }
+
+    .perfiles div {
+        font-size: .8em;
+    }
+
+    .equipo-trabajo div {
+        max-width: 33.3%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 24px;
+    }
+
+    .ul-nav li:hover {
+        text-decoration: underline;
+        text-shadow: 2px 2px 4px $celeste;
+    }
+
+    .forma-trabajo div p {
+        font-size: .8em;
+    }
+    .perfiles div:hover {
+        transform: scale(1.04);
+        transition: all .6s;
+        box-shadow: 0 4px 6px $blue;
+    }
+
+    .equipo-trabajo div{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        font-size: 26px;
+    }
+
+    .nav a{
+        font-size: 1em;
+    }
+
+    .equipo-trabajo div {
+        font-size: 22px;
+    }
+}

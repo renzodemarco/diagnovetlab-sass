@@ -1,0 +1,7 @@
+$azul: #1c2d3d;
+$celeste: #E5ECF3;
+
+@mixin size($he, $wi) {
+    height: $he;
+    width: $wi;
+}
