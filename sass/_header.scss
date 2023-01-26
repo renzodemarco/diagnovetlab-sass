@@ -46,14 +46,14 @@ header {
 .ul-nav-responsive li {
     padding: .4em;
     border-bottom: 2px solid #E5ECF3;
-}
 
-.ul-nav-responsive li a{
-    color: $blue;
-    font-size: 1.2em;
-}
-
-.ul-nav-responsive li img {
-    height: 1.2em;
-    margin-right: .4em;
+    a {
+        color: $blue;
+        font-size: 1.2em;
+    }
+    
+    img {
+        height: 1.2em;
+        margin-right: .4em;
+    }
 }

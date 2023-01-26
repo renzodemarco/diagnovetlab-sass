@@ -47,12 +47,10 @@ header {
   padding: 0.4em;
   border-bottom: 2px solid #E5ECF3;
 }
-
 .ul-nav-responsive li a {
   color: #1c2d3d;
   font-size: 1.2em;
 }
-
 .ul-nav-responsive li img {
   height: 1.2em;
   margin-right: 0.4em;
@@ -208,7 +206,7 @@ form {
   max-width: 300px;
   padding: 0.3em;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: normal;
 }
 
@@ -451,11 +449,11 @@ form {
     font-size: 0.9em;
   }
   .perfiles div {
+    height: 14em;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 14em;
-    width: 100%;
     margin: 0;
     font-size: 15px;
   }
@@ -477,8 +475,8 @@ form {
   .perfiles div img {
     height: 100%;
     width: 30%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media screen and (min-width: 1032px) {

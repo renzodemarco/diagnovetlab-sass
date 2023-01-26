@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import "variables";
 @import "header";
-@import "mediaqueries";
 
 * {
     padding: 0;
@@ -157,7 +156,7 @@ form {
     max-width: 300px;
     padding: .3em;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: normal;
 }
 
@@ -299,4 +298,4 @@ form {
     order: 3;
 }
 
-
+@import "mediaqueries";
