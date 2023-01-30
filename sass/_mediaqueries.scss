@@ -145,7 +145,7 @@
 
         img {
             @include size(100%, 30%);
-            object-fit: contain;
+            object-fit: cover;
         }
     }
 }

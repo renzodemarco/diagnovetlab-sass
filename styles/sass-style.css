@@ -475,8 +475,8 @@ form {
   .perfiles div img {
     height: 100%;
     width: 30%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media screen and (min-width: 1032px) {
