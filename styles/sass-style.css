@@ -555,4 +555,7 @@ form {
   .equipo-trabajo div {
     font-size: 22px;
   }
+  .analisis div {
+    font-size: 0.7em;
+  }
 }/*# sourceMappingURL=sass-style.css.map */
