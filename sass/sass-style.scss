@@ -78,6 +78,11 @@ ul li {
     list-style-type: none;
 }
 
+.titulo {
+    width: 100%;
+    background-color: $blue;
+}
+
 .presentacion {
     background-color: $blue;
 }
@@ -89,7 +94,6 @@ ul li {
 }
 
 h1 {
-    background-color: $blue;
     font-size: 1.6em;
     padding: 1.2em .8em;
     margin: 0;

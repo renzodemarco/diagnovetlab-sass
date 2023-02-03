@@ -127,6 +127,11 @@ ul li {
   list-style-type: none;
 }
 
+.titulo {
+  width: 100%;
+  background-color: #1c2d3d;
+}
+
 .presentacion {
   background-color: #1c2d3d;
 }
@@ -139,7 +144,6 @@ ul li {
 }
 
 h1 {
-  background-color: #1c2d3d;
   font-size: 1.6em;
   padding: 1.2em 0.8em;
   margin: 0;
